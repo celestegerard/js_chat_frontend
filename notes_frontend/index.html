@@ -3,8 +3,35 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <script type="text/javascript" src='src/index.js'></script>
+    <style media="screen">
+    #messages-container {
+    width:600px;
+    margin:auto;
+    }
+
+    .message-from-others {
+    float:left
+    }
+
+    .my-messages {
+    float:right
+    }
+
+    .message-container {
+    clear:both;
+    }
+    </style>
   </head>
   <body>
-    
+
+    <div id="container">
+      <form id="form">
+        <h1>Pick an alias to join our chat room</h1>
+        <label>Alias: <input id="username" type="text" value=""></label>
+        <input type="submit" value="Enter chat">
+      </form>
+    </div>
+
   </body>
 </html>
